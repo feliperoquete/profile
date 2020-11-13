@@ -1,0 +1,63 @@
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Source+Code+Pro:wght@500&display=swap');
+
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: rgba(90, 90, 90, 0.8);
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  color: rgba(160, 160, 160, 0.8);
+}
+
+.bio, .socialmedia {
+  width: 500px;
+  margin: 15px auto;
+  text-align: center;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+
+.bio img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba (0,0,0,.1);
+}
+
+
+#cade {
+  background-color: rgba(255, 99, 71, 0.6);
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#cade:hover {
+  border: 2px solid rgba(255, 99, 71, 0.6);
+  background-color: white;
+  color: rgba(255, 99, 71, 0.6);
+}
+
+.fab {
+  color: rgba(255, 99, 71, 0.8);
+}
+
+.fab:hover {
+  opacity: .5;
+}
+
+.socialmedia ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
